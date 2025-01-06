@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/YashwanthRao95/YashwanthRao95.github.io/issues"
   },
-  "homepage": "https://github.com/YashwanthRao95/YashwanthRao95.github.io#readme",
+  "homepage": "https://github.com/YashwanthRao95/YashwanthRao95.github.io",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
