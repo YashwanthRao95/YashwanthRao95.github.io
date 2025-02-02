@@ -3,8 +3,9 @@ layout: post
 title: "My First Blog Post"
 date: 2025-02-02
 author: Yashwanth Rao
-categories: [General, Tutorial]
-image: /assets/images/cat.jpg
+categories: [blog]
+tags: [blog, jekyll, github-pages]
+image: /assets/images/cat.png
 ---
 
 Welcome to my first blog post! In this post, I'll share some thoughts and include an image of a cute cat.
@@ -23,7 +24,3 @@ You can also use HTML for more control over the image:
 
 ## Conclusion
 That's it for this post! I hope you enjoyed it. Stay tuned for more updates.
-
----
-
-**Tags:** blog, jekyll, github-pages
