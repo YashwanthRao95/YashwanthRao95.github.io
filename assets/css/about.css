@@ -1,0 +1,12 @@
+.about-container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
