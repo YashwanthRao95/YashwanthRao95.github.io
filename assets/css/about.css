@@ -29,7 +29,7 @@
 .icon-container img {
     width: 100%; /* Make images responsive */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Optional: rounded corners */
+    border-radius: 8px;
 }
 
 .contact-container {
