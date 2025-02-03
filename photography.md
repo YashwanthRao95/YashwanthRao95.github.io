@@ -9,8 +9,8 @@ permalink: /photography/
     <div class="photography-item">
       <a href="{{ post.url }}">
         <img src="{{ post.image }}" alt="{{ post.title }}">
-        <p>{{ post.title }}</p>
       </a>
+      <p>{{ post.title }}</p>
     </div>
   {% endfor %}
 </div>

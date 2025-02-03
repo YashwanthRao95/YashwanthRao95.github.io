@@ -8,8 +8,17 @@ layout: page
 <div class="about-container">
   <img src="/assets/images/yash-profile.jpg" alt="Profile Picture"  class="profile-pic">
   <h1>Yashwanth Rao Gujja</h1>
+  <div class="icon-container">
+    <a href="https://www.linkedin.com/in/yashwanth-rao-gujja-27101995/" target="_blank"><img src="/assets/icons/ln.png" alt="LinkedIn"></a>
+    <a href="https://www.instagram.com/im.yashwanthrao/" target="_blank"><img src="/assets/icons/insta.png" alt="Instagram"></a>
+    <a href="https://www.facebook.com/im.yashwanthrao" target="_blank"><img src="/assets/icons/fb.png" alt="Facebook"></a>
+  </div>
   <h4>Salesforce Developer | Photographer | Painter</h4>
-  <p>Passionate about capturing moments and sharing stories through my lens.</p>
+  <div class="contact-container">
+    <span>Email: <a href="mailto:yashwanthgujja95@gmail.com" target="_blank">yashwanthgujja95@gmail.com</a></span>
+    <span class="separator">|</span>
+    <span>Phone: <a href="tel:+19845848444">+1 (984) 584-8444</a></span>
+  </div>
 </div>
 <div class="container-content">
     <p>Hello! I'm Yashwanth, a driven and innovative Computer Science Master's graduate from Missouri University of Science & Technology, with a vibrant background in Salesforce development, and a passion for data science and machine learning.</p>

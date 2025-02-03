@@ -3,7 +3,7 @@ layout: page
 permalink: /blogs/
 ---
 
-<h2 style="padding: 5%;">Blog Posts</h2>
+<h2 style="padding-left: 2%;">Blog Posts</h2>
 <ul>
   {% for post in site.categories.blog %}
     <li>

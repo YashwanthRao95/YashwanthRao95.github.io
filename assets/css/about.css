@@ -17,3 +17,39 @@
     padding-right: 5px;
     max-width: 100%;
 }
+
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* Space between images */
+    max-width: 100px; /* Adjust as needed */
+    margin: auto; /* Center the grid */
+}
+
+.icon-container img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.separator {
+    display: block;
+}
+
+@media (min-width: 600px) {
+    .contact-container {
+        flex-wrap: nowrap;
+    }
+
+    .separator {
+        display: inline;
+    }
+}
