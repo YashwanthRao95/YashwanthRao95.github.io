@@ -21,7 +21,7 @@ layout: page
   </div>
 </div>
 <div class="container-content">
-    <p>Hello! I'm Yashwanth, a driven and innovative Computer Science Master's graduate from Missouri University of Science & Technology, with a vibrant background in Salesforce development, and a passion for data science and machine learning.</p>
+    <p>Hello! I'm Yashwanth Rao, a driven and innovative Computer Science Master's graduate from Missouri University of Science & Technology, with a vibrant background in Salesforce development, and a passion for data science and machine learning.</p>
 
     <p>Starting my journey with a Bachelor's in Computer Science and Engineering from Kakatiya University, I've always been keen on leveraging technology to solve complex problems and enhance user experiences. My professional path has led me through roles at esteemed organizations like Deloitte USI and General Electric, where I've not only honed my technical skills but also developed a keen understanding of business processes and user needs.</p>
 
