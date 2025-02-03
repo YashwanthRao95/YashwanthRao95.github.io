@@ -1,6 +1,6 @@
 /* Navbar styles */
 .navbar {
-  background-color: #333;
+  background-color: #1E201E;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -14,6 +14,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  font-family: "Times New Roman", Georgia, serif;
 }
 
 .navbar-brand a {
@@ -57,24 +58,34 @@
 }
 
 .navbar-links {
-  list-style: none;
-  display: flex;
-  margin: 0;
+  display: flex; /* Aligns items horizontally */
+  list-style: none; /* Removes bullets */
   padding: 0;
+  margin: 0;
 }
 
 .navbar-links li {
   margin-left: 1rem;
+  border-radius: 4rem;
 }
 
 .navbar-links a {
+  display: inline-block;
+  background: #872341;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4rem;
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .navbar-links a:hover {
-  color: #f4c10f;
+  background: lightgray;
+  color: #1E201E;
 }
 
 .slider {
@@ -142,12 +153,11 @@
     display: none;
     flex-direction: column;
     width: 100%;
-    background-color: #444;
+    background-color: #872341;
     position: absolute;
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: #444;
     z-index: 1001;
   }
 
@@ -164,6 +174,11 @@
   .navbar-links li a {
     width: 100%;
     display: block;
+  }
+
+  .navbar-links li a:hover {
+    background: lightgray;
+    color: #1E201E;
   }
 
   .photography-item {
