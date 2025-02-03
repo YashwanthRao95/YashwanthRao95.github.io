@@ -9,7 +9,7 @@
 <body>
   <nav class="navbar">
     <div class="navbar-brand">
-      <a href="/">My Blog</a>
+      <a href="/">Yashwanth Rao's Blog Site</a>
       <button class="navbar-toggle" aria-label="Toggle navigation">
         <span class="hamburger-icon"></span>
       </button>
@@ -22,17 +22,57 @@
     </ul>
   </nav>
   <div class="content">
-    <div class="home"><p>Welcome to my blog!</p>
+    <div class="home"><!-- Slick CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+
+<!-- Carousel Container -->
+<div class="slider">
+    <div><img src="/assets/images/puerto-rico-1.jpg" alt="Image 1" /></div>
+    <div><img src="/assets/images/niagara.jpg" alt="Image 2" /></div>
+    <div><img src="/assets/images/brownie.jpg" alt="Image 3" /></div>
+</div>
+
+<!-- jQuery & Slick JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+<!-- Initialize Slick -->
+<script>
+    $(document).ready(function(){
+        $('.slider').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            dots: true,
+            arrows: true,
+            infinite: true,
+            slidesToShow: 1,
+        });
+    });
+</script>
+
 <h2 class="post-list-heading">Posts</h2>
     <ul class="post-list"><li><span class="post-meta">Feb 2, 2025</span>
         <h3>
-          <a class="post-link" href="/photography/2025/02/02/test-image.html">
-            Sunset Photography
+          <a class="post-link" href="/photography/2025/02/02/puerto-rico-fort.html">
+            Sunset in Puerto-Rico
+          </a>
+        </h3></li><li><span class="post-meta">Feb 2, 2025</span>
+        <h3>
+          <a class="post-link" href="/photography/2025/02/02/niagara-waterfalls.html">
+            Long Exposure Shot of Niagara Falls
           </a>
         </h3></li><li><span class="post-meta">Feb 2, 2025</span>
         <h3>
           <a class="post-link" href="/blog/2025/02/02/my-first-blog-post.html">
             My First Blog Post
+          </a>
+        </h3></li><li><span class="post-meta">Feb 2, 2025</span>
+        <h3>
+          <a class="post-link" href="/photography/2025/02/02/brownie.html">
+            Toy Dog in Rain
           </a>
         </h3></li></ul>
 

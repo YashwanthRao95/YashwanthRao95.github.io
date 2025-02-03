@@ -3,7 +3,7 @@ layout: page
 permalink: /photography/
 ---
 
-<h2>Photography</h2>
+<h2 style="padding-left: 2%;">Photography</h2>
 <div class="photography-grid">
   {% for post in site.categories.photography %}
     <div class="photography-item">
